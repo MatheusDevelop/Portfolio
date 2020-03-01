@@ -1,0 +1,93 @@
+.welcome{
+    margin-top:70px;
+}
+.welcome_left{
+    position: relative;
+}
+.welcome__img img{
+    width:100%;
+}
+.welcome__clock{
+    width:150px;
+    
+}
+.welcome__clock div{
+    letter-spacing: 1px;
+    transform: rotate(90deg);
+    color:white;
+    padding:10px 20px;
+    border: 1px solid white;
+    margin-right:auto;
+    word-spacing: 10px;
+    position: absolute;
+}
+
+
+h1{
+    margin-top:100px;
+    width: 833px;
+    height:240px;
+    color:white;
+    position: absolute;
+    right:-550px;
+    font-size: 100px;
+    
+}
+
+.lighter{
+    font-weight: 300;
+}
+.welcome__right--text h2{
+    color: white;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    width:246px;
+    margin-top:20px;
+}
+.arrows{
+    padding-top:200px;
+}
+.arrow{
+    animation-duration: 5s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+@media (max-width: 600px) 
+{
+    h1{
+        margin-top:100px;
+        width: 100%;
+        height:100%;
+        color:white;
+        position: none;
+        right:0;
+        font-size: 40px;
+        
+    }
+    .welcome__clock div{
+        display: none;
+    }
+    .welcome__right--text h2{
+        color: white;
+       
+        font-size: 17px;
+       
+        width:100%;
+       
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,0);
+        outline: none;
+        
+    }
+    .navbar-light .navbar-toggler-icon {
+        width:40px;
+        background-image:url("https://cdn0.iconfinder.com/data/icons/interface-line-4/48/List_menu_interface-512.png");
+    }
+    
+    
+}

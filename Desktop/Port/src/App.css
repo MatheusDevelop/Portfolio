@@ -1,0 +1,26 @@
+body{
+  background-color: #010100;
+}
+.header{
+  background-color: #000000d7;  
+  font-size: 16px;
+  
+  z-index: 99;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.point{
+  color:#8C001B;
+}
+.animation__abs{
+  position: absolute;
+}
+.work__tittle{
+  font-size: 100px;
+  font-weight: bold;
+  color:white;
+}
+.copy{
+  color: gray;
+}
